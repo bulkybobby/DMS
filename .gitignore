@@ -1,0 +1,57 @@
+# =====================
+# ASP.NET Core (.NET)
+# =====================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+*.dbmdl
+*.pdb
+*.cache/
+*.log
+*.ncrunch*
+*.vscode/
+
+# EF Core Migrations snapshot files
+Migrations/*Designer.cs
+Migrations/*ModelSnapshot.cs
+
+# Secret files
+appsettings.Development.json
+secrets.json
+
+# Rider
+.idea/
+
+# =====================
+# Node.js (React/Vite)
+# =====================
+# dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# build output
+dist/
+build/
+
+# misc
+.DS_Store
+.env
+.env.*.local
+.vite/
+
+# local editor settings
+*.local
+*.swp
+*.swo
+*.tmp
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
